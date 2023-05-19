@@ -1,30 +1,18 @@
 var indexSectionsWithContent =
 {
-  0: "_abcdghilmnopsv~",
-  1: "bcghps",
-  2: "bcgmps",
-  3: "bcghimopsv~",
-  4: "bilns",
-  5: "_acdhps"
+  0: "bcghps",
+  1: "bcghps"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes",
-  2: "files",
-  3: "functions",
-  4: "variables",
-  5: "defines"
+  1: "classes"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Classes",
-  2: "Files",
-  3: "Functions",
-  4: "Variables",
-  5: "Macros"
+  1: "Classes"
 };
 
