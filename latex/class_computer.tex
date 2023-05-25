@@ -1,0 +1,120 @@
+\hypertarget{class_computer}{}\doxysection{Computer Class Reference}
+\label{class_computer}\index{Computer@{Computer}}
+
+
+{\ttfamily \#include $<$Players.\+h$>$}
+
+
+
+Inheritance diagram for Computer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=138pt]{class_computer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Computer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_computer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_computer_a888944b91f4a1ee9875d0ac28e96a725}{Computer}} (char, \mbox{\hyperlink{class_board}{Board}} \&)
+\item 
+\mbox{\hyperlink{class_computer_af09dda36e4496b0bda1d23ecdc4922f3}{Computer}} (const \mbox{\hyperlink{class_computer}{Computer}} \&\mbox{\hyperlink{class_computer}{Computer}})=delete
+\item 
+\mbox{\hyperlink{class_computer}{Computer}} \& \mbox{\hyperlink{class_computer_a843f83eb603776bb49c718a2d5aa0175}{operator=}} (const \mbox{\hyperlink{class_computer}{Computer}} \&other)=delete
+\item 
+void \mbox{\hyperlink{class_computer_adf86da3799f8a823e5155d1901da6e24}{make\+Move}} () override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_players}{Players}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_players_a2670c8b1b1b903e8c0e29f90ae506302}{Players}} (char)
+\item 
+char \mbox{\hyperlink{class_players_a2ba6ac0ba23be64810960d5d628bffcd}{get\+Symbol}} () const
+\item 
+virtual \mbox{\hyperlink{class_players_a550b03902064fa337ccf9f9f67b01d88}{$\sim$\+Players}} ()
+\item 
+\mbox{\hyperlink{class_players_a81433e55b387de389e620f7645185cf1}{Players}} (const \mbox{\hyperlink{class_players}{Players}} \&other)=delete
+\item 
+\mbox{\hyperlink{class_players}{Players}} \& \mbox{\hyperlink{class_players_ad0f34ce263f336675ce5f26df359e1c5}{operator=}} (const \mbox{\hyperlink{class_players}{Players}} \&other)=delete
+\item 
+virtual void \mbox{\hyperlink{class_players_ac90cfe99a15f31f44b51f763be4715b3}{make\+Move}} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_board}{Board}} \& \mbox{\hyperlink{class_computer_a8bd4cb684cebcf3d35c5f083df587355}{board}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_players}{Players}}}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{class_players_aef057de289faefe3ff70c94a713247d9}{symbol}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_computer_a888944b91f4a1ee9875d0ac28e96a725}\label{class_computer_a888944b91f4a1ee9875d0ac28e96a725}} 
+\index{Computer@{Computer}!Computer@{Computer}}
+\index{Computer@{Computer}!Computer@{Computer}}
+\doxysubsubsection{\texorpdfstring{Computer()}{Computer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Computer\+::\+Computer (\begin{DoxyParamCaption}\item[{char}]{symbol,  }\item[{\mbox{\hyperlink{class_board}{Board}} \&}]{board }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_computer_af09dda36e4496b0bda1d23ecdc4922f3}\label{class_computer_af09dda36e4496b0bda1d23ecdc4922f3}} 
+\index{Computer@{Computer}!Computer@{Computer}}
+\index{Computer@{Computer}!Computer@{Computer}}
+\doxysubsubsection{\texorpdfstring{Computer()}{Computer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Computer\+::\+Computer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_computer}{Computer}} \&}]{Computer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_computer_adf86da3799f8a823e5155d1901da6e24}\label{class_computer_adf86da3799f8a823e5155d1901da6e24}} 
+\index{Computer@{Computer}!makeMove@{makeMove}}
+\index{makeMove@{makeMove}!Computer@{Computer}}
+\doxysubsubsection{\texorpdfstring{makeMove()}{makeMove()}}
+{\footnotesize\ttfamily void Computer\+::make\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_players_ac90cfe99a15f31f44b51f763be4715b3}{Players}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_computer_adf86da3799f8a823e5155d1901da6e24_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_computer_a843f83eb603776bb49c718a2d5aa0175}\label{class_computer_a843f83eb603776bb49c718a2d5aa0175}} 
+\index{Computer@{Computer}!operator=@{operator=}}
+\index{operator=@{operator=}!Computer@{Computer}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_computer}{Computer}} \& Computer\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_computer}{Computer}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_computer_a8bd4cb684cebcf3d35c5f083df587355}\label{class_computer_a8bd4cb684cebcf3d35c5f083df587355}} 
+\index{Computer@{Computer}!board@{board}}
+\index{board@{board}!Computer@{Computer}}
+\doxysubsubsection{\texorpdfstring{board}{board}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_board}{Board}}\& Computer\+::board\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_players_8h}{Players.\+h}}\item 
+\mbox{\hyperlink{_players_8cpp}{Players.\+cpp}}\end{DoxyCompactItemize}

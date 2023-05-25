@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['architecture_5fid_0',['ARCHITECTURE_ID',['../_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCXXCompilerId.cpp']]]
+  ['checkwin_0',['checkWin',['../class_board.html#a4cdcfa3c443e8de85a10e12cf66e0edb',1,'Board']]],
+  ['computer_1',['Computer',['../class_computer.html',1,'Computer'],['../class_computer.html#a888944b91f4a1ee9875d0ac28e96a725',1,'Computer::Computer(char, Board &amp;)'],['../class_computer.html#af09dda36e4496b0bda1d23ecdc4922f3',1,'Computer::Computer(const Computer &amp;Computer)=delete']]]
 ];

@@ -1,0 +1,37 @@
+\hypertarget{_game_8h_source}{}\doxysection{Game.\+h}
+\mbox{\hyperlink{_game_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//}}
+\DoxyCodeLine{00002\ \textcolor{comment}{//\ Created\ by\ Maciej\ on\ 05.04.2023.}}
+\DoxyCodeLine{00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#ifndef\ TIC\_TAC\_TOE\_FINAL\_MAYBE\_GAME\_H}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ TIC\_TAC\_TOE\_FINAL\_MAYBE\_GAME\_H}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_board_8h}{Board.h}}"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_players_8h}{Players.h}}"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_game}{Game}}\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ vector<Players*>\ \mbox{\hyperlink{class_game_addc2ccf4b4bb156c64a5563706e11abc}{List}};}
+\DoxyCodeLine{00018\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_board}{Board}}*\ \mbox{\hyperlink{class_game_ae38e501e177586af48d2e2300b6be4ba}{board}};}
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}}();}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_game_ae3d112ca6e0e55150d2fdbc704474530}{\string~Game}}();}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_game_a84389b59f971371e667202ae2dd33bc6}{Game}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_game}{Game}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_game}{Game}}\&\ \mbox{\hyperlink{class_game_a43ef27a6649924079dda61d40bbbcad3}{operator=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_game}{Game}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_aa333825d0bca80e91e53c7e23f053405}{play}}();}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_af8ba6d030982028f1e59023ec2db0216}{InitPlayers}}();}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_game_ac326ab95fae20280a5e68403ec1dc980}{InitBoard}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_game_a5f830b927f4a21bd6934e58d81b66118}{ViewBoard}}()\ =\ 0;}
+\DoxyCodeLine{00029\ \};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//TIC\_TAC\_TOE\_FINAL\_MAYBE\_GAME\_H}}
+
+\end{DoxyCode}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['list_0',['List',['../class_game.html#addc2ccf4b4bb156c64a5563706e11abc',1,'Game']]]
+  ['n_0',['n',['../class_board.html#a50bc031c4e4ffab2c107e58a62c5a3a9',1,'Board']]]
 ];
