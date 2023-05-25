@@ -11,6 +11,5 @@ void Screen::ViewBoard() {
     board->printBoard();
 }
 
-Screen::Screen() {
+Screen::Screen() {}
 
-}

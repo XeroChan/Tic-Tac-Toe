@@ -13,6 +13,8 @@ class Screen: public Game {
 
 public:
     Screen();
+    Screen(const Screen& other) = delete;
+    Screen& operator=(const Screen& other) = delete;
 };
 
 
