@@ -13,11 +13,3 @@ void Screen::ViewBoard() {
     board->printBoard();
 }
 
-void Screen::enterPlayers() {
-
-}
-
-void Screen::enterBots() {
-
-}
-
