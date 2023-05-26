@@ -15,8 +15,6 @@ using namespace std;
 class Game {
 protected:
     Board* board;
-    int players, bots;
-    char symbol;
     vector<Players*> List;
 public:
     Game();
@@ -27,8 +25,6 @@ public:
     void InitPlayers();
     static int InitBoard();
     virtual void ViewBoard() = 0;
-    virtual void enterPlayers() = 0;
-    virtual void enterBots() = 0;
 };
 
 

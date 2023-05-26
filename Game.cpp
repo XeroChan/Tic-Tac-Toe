@@ -51,8 +51,29 @@ void Game::play() {
 }
 
 void Game::InitPlayers() {
-    enterPlayers();
-    enterBots();
+    int players, bots;
+    cout << "Enter number of players who going to play:\n";
+    cin >> players;
+    for(int i=0; i<players; i++){
+        char symbol;
+        string name = "Player ";
+        name+= to_string(i+1);
+        cout << name << " chooses symbol: ";
+        cin >> symbol;
+        Players* player = new Human(symbol, *board);
+        List.push_back(player);
+    }
+    cout << "Enter number of bots to play against:\n";
+    cin >> bots;
+    for(int i=0; i<bots; i++){
+        char symbol;
+        string name = "Bot ";
+        name+= to_string(i+1);
+        cout << name << " chooses symbol: ";
+        cin >> symbol;
+        Players* player = new Computer(symbol, *board);
+        List.push_back(player);
+    }
 }
 
 int Game::InitBoard() {

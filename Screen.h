@@ -10,8 +10,6 @@
 
 class Screen: public Game {
     void ViewBoard() override;
-    void enterPlayers() override;
-    void enterBots() override;
 
 public:
     Screen();
