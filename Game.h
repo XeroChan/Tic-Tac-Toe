@@ -13,10 +13,11 @@
 using namespace std;
 
 class Game {
-private:
-    vector<Players*> List;
 protected:
     Board* board;
+    int players, bots;
+    char symbol;
+    vector<Players*> List;
 public:
     Game();
     ~Game();
@@ -24,8 +25,10 @@ public:
     Game& operator=(const Game& other) = delete;
     void play();
     void InitPlayers();
-    int InitBoard();
+    static int InitBoard();
     virtual void ViewBoard() = 0;
+    virtual void enterPlayers() = 0;
+    virtual void enterBots() = 0;
 };
 
 
