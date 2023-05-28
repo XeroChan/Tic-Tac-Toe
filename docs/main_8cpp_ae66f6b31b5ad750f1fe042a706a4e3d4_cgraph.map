@@ -1,7 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,55,83"/>
-<area shape="rect" id="node2" href="$class_game.html#aa333825d0bca80e91e53c7e23f053405" title=" " alt="" coords="103,56,191,83"/>
-<area shape="rect" id="node3" href="$class_board.html#a4cdcfa3c443e8de85a10e12cf66e0edb" title=" " alt="" coords="242,5,363,32"/>
-<area shape="rect" id="node4" href="$class_board.html#a2a7745dc629bd857aa84a5d677117551" title=" " alt="" coords="255,56,349,83"/>
-<area shape="rect" id="node5" href="$class_game.html#a5f830b927f4a21bd6934e58d81b66118" title=" " alt="" coords="239,107,365,133"/>
-</map>
