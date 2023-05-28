@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "bcghps",
   2: "bgmps",
   3: "bcghimopsv~",
-  4: "blns"
+  4: "blnps"
 };
 
 var indexSectionNames =
@@ -18,10 +18,10 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "All",
-  1: "Classes",
-  2: "Files",
-  3: "Functions",
-  4: "Variables"
+  0: "Wszystko",
+  1: "Klasy",
+  2: "Pliki",
+  3: "Funkcje",
+  4: "Zmienne"
 };
 

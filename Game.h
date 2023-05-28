@@ -16,6 +16,7 @@ class Game {
 protected:
     Board* board;
     vector<Players*> List;
+    int players, bots;
 public:
     Game();
     ~Game();
@@ -25,6 +26,8 @@ public:
     void InitPlayers();
     static int InitBoard();
     virtual void ViewBoard() = 0;
+    virtual void createPlayers() = 0;
+    virtual void createBots() = 0;
 };
 
 

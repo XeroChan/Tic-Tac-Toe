@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['symbol_0',['symbol',['../class_players.html#aef057de289faefe3ff70c94a713247d9',1,'Players']]]
+  ['players_0',['players',['../class_game.html#aa51691b0e1d83c95df13339f8016a9d5',1,'Game']]]
 ];

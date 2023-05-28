@@ -10,11 +10,14 @@
 
 class Screen: public Game {
     void ViewBoard() override;
-
+    void createPlayers() override;
+    void createBots() override;
 public:
     Screen();
     Screen(const Screen& other) = delete;
     Screen& operator=(const Screen& other) = delete;
+
+    void initPlayers();
 };
 
 

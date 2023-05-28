@@ -1,5 +1,8 @@
 /* The standard CSS for doxygen 1.9.6*/
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+font-family: Quicksand;
+}
 body {
     background-color: black;
     color: #C9D1D9;
@@ -8,7 +11,7 @@ body {
 body, table, div, p, dl {
 	font-weight: 400;
 	font-size: 14px;
-	font-family: Roboto,sans-serif;
+	
 	line-height: 22px;
 }
 
@@ -17,7 +20,6 @@ body, table, div, p, dl {
 .title {
 	font-weight: 400;
 	font-size: 14px;
-	font-family: Roboto,sans-serif;
 	line-height: 28px;
 	font-size: 150%;
 	font-weight: bold;
@@ -298,7 +300,6 @@ pre.fragment {
         word-wrap: break-word;
         font-size:  9pt;
         line-height: 125%;
-        font-family: monospace,fixed;
         font-size: 105%;
 }
 
@@ -311,7 +312,6 @@ div.fragment {
 }
 
 div.line {
-	font-family: monospace,fixed;
         font-size: 13px;
 	min-height: 13px;
 	line-height: 1.0;
@@ -675,7 +675,7 @@ table.memberdecls {
 }
 
 .overload {
-        font-family: monospace,fixed;
+
 	font-size: 65%;
 }
 
@@ -746,7 +746,7 @@ dl.reflist dd {
 }
 
 .params .paramdir, .tparams .paramdir {
-        font-family: monospace,fixed;
+        
         vertical-align: top;
 }
 
@@ -873,7 +873,7 @@ div.directory {
 }
 
 .icon {
-    font-family: Arial,Helvetica;
+    
     line-height: normal;
     font-weight: bold;
     font-size: 12px;
@@ -1066,7 +1066,7 @@ table.fieldtable {
 	text-decoration: none;
 	outline: none;
 	color: #B6C4DF;
-	font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
+	
 	text-shadow: 0px 1px 1px black;
 	text-decoration: none;
 }
@@ -1238,7 +1238,7 @@ dl.section dd {
 #projectname
 {
 	font-size: 200%;
-	font-family: Tahoma,Arial,sans-serif;
+	
 	margin: 0px;
 	padding: 2px 0px;
 }
@@ -1246,7 +1246,7 @@ dl.section dd {
 #projectbrief
 {
 	font-size: 90%;
-        font-family: Tahoma,Arial,sans-serif;
+        
 	margin: 0px;
 	padding: 0px;
 }
@@ -1254,7 +1254,7 @@ dl.section dd {
 #projectnumber
 {
 	font-size: 50%;
-	font-family: 50% Tahoma,Arial,sans-serif;
+	
 	margin: 0px;
 	padding: 0px;
 }
@@ -1367,7 +1367,7 @@ div.toc li.level4 {
 
 span.emoji {
         /* font family used at the site: https://unicode.org/emoji/charts/full-emoji-list.html
-         * font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+         * 
          */
 }
 
@@ -1449,7 +1449,7 @@ tr.heading h2 {
         margin: 0px;
         padding: 0px;
         font-size: 12px;
-       	font-family: Roboto,sans-serif;
+       	
 	line-height: 16px;
 }
 

@@ -1,5 +1,4 @@
 <map id="Game::Game" name="Game::Game">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,105,57"/>
-<area shape="rect" id="node2" href="$class_game.html#ac326ab95fae20280a5e68403ec1dc980" title=" " alt="" coords="158,5,273,32"/>
-<area shape="rect" id="node3" href="$class_game.html#af8ba6d030982028f1e59023ec2db0216" title=" " alt="" coords="153,56,278,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node2" href="$class_game.html#ac326ab95fae20280a5e68403ec1dc980" title=" " alt="" coords="153,5,268,32"/>
 </map>
